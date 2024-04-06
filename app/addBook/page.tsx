@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { ShowBooksPage } from "./components/ShowBooksPage";
+import { AddBookPage } from "../components/AddBooksPage";
 
 export default function IndexPage() {
-  return (<ShowBooksPage/>)
+  return (<AddBookPage/>)
 }
 
 export const metadata: Metadata = {
-  title: "Show Book",
+  title: "Add Book",
 };
