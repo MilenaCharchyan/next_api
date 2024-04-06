@@ -28,5 +28,6 @@ export const Counter = () => {
       <div className={styles.row}>
     <h1>hello</h1>
     </div>
+    </div>
   );
 };
